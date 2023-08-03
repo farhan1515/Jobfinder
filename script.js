@@ -1,6 +1,6 @@
-const burger = document.getElementById('burger');
-const navLinks = document.querySelector('.nav-links');
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
 
-burger.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+darkModeToggle.addEventListener('change', () => {
+    body.classList.toggle('dark-mode');
 });
