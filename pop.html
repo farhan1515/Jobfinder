@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pop.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box-wrapper">
+         <div class="box">
+          <h2> Submit A Job</h2> 
+            <form id="form" action="">
+              <div>
+                <input type="text" name="" id="name" required placeholder=" ">
+                <label>Company name</label>
+              </div>
+              <div>
+                <input type="text" name="" required placeholder=""/>
+                <label>skills required </label>
+              </div>
+              <div>
+                <input type="text" name="" required placeholder=" ">
+                <label>job description </label>
+              </div>
+              <div>
+                <input type="text" name="" required placeholder=" ">
+                <label>location </label>
+              </div>
+              <div>
+                <input type="number" name="" required placeholder=" ">
+                <label>number of opening </label>
+              </div>
+              <div>
+                <textarea required placeholder=" "></textarea>
+                <label>About company</label>
+              </div>
+              <input onclick="take()" id="submit" type="submit" value="Submit">
+            </form>  
+      </div>
+        </div>
+    </div>
+</body>
+<script>
+    const take = () => {
+        window.location.href = "index.html"
+    }
+</script>
+</html>
