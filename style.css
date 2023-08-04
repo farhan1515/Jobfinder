@@ -402,6 +402,7 @@ body {
     /* background-color: #e0e0e0; */
     font-weight: bold;
     font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 
 
 
@@ -466,11 +467,15 @@ body {
 .top-company-heading {
     text-align: center;
     color: #343a40;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: #333;
 }
 
 .top-company-sub-heading {
     text-align: center;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color:#2196F3;
 }
 
 .company-list {
